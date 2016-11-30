@@ -1,0 +1,48 @@
+.UIFilterList_ListTitle{font-weight:bold;padding:0 0 4px 2px}
+.UIFilterList_BottomMargin{padding-bottom:20px}
+.UIFilterList_Footer,
+.UIFilterList_EditLink{border-top:1px solid #d6d9de;display:none;font-size:9px;font-weight:bold;padding:4px 6px 4px 5px;position:relative}
+.UIFilterList_Create{float:right}
+.UIFilterList_Plus, .UIMutableFilterList_Arrow{background:transparent url(/rsrc.php/z9WEN/hash/6w95fo9x.gif) no-repeat;display:inline-block;height:10px;margin:0 3px 0 0;padding-left:7px}
+.UIFilterList_Plus{background-position:-232px -87px}
+.UIFilterList_BlankState{border-top:1px solid #ddd;color:#666;display:none;line-height:16px;padding:5px 3px}
+.UIFilterList_HasBlankState .UIFilterList_BlankState{display:block}
+.UIFilterList_List{display:block;margin:0;padding:0}
+.UIFilterList_HasBlankState .UIFilterList_List{display:none}
+.UIFilterList_Item{display:block;height:26px;margin:0;overflow:hidden;position:relative}
+.UIFilterList_Icon{background-position:top right;background-repeat:no-repeat;display:block;height:16px;width:16px}
+.selected .UIFilterList_Icon{background-position:top left}
+.UIFilterList_EditIcon{display:none}
+.UIFilterList .selected{background-color:#6d84b4;border:1px solid #3b5998;height:24px;padding-left:1px}
+.selected .UIFilterList_EditIcon{background:transparent url(/rsrc.php/zALOO/hash/aw6u5ib5.gif) no-repeat 0 -70px;cursor:pointer;display:block;height:16px;left:auto;position:absolute;right:4px;top:4px;width:16px;z-index:1}
+.selected .UIFilterList_EditIcon:hover{background-position:0 -54px}
+.UIFilterList_ItemLink{border-top:1px solid #d6d9de;color:#333;display:block;height:19px;overflow:hidden;padding:5px 0 1px 5px;text-overflow:ellipsis}
+.UIFilterList_Item .UIFilterList_TitleWithoutIcon{padding-top:6px}
+.UIFilterList_Item .UIFilterList_Title{font-weight:normal;white-space:nowrap}
+.UIFilterList_Item .UIFilterList_ItemLink:hover{background-color:#eceef4;text-decoration:none}
+.selected .UIFilterList_ItemLink:hover{background-color:transparent}
+.selected .UIFilterList_ItemLink{border-top:0 none;padding-left:3px;padding-top:4px}
+.selected .UIFilterList_TitleWithoutIcon{padding-top:5px}
+.selected .UIFilterList_Title{color:#fff}
+.selected .UIFilterList_HasEditIcon{padding-right:19px}
+.selected .UIFilterList_LoadingIndicator{background:transparent url(/rsrc.php/z13JD/hash/16vt4yge.gif) top left no-repeat;display:none;height:11px;position:absolute;right:10px;top:7px;width:16px;z-index:2}
+.UIFilterList_Loading .selected .UIFilterList_LoadingIndicator{display:block}
+.UIFilterList_Loading .selected .UIFilterList_EditIcon{display:none}
+.UIFilterList_Loading .selected{padding-right:31px}
+.safari3 .UIFilterList_Loading .selected .UIFilterList_ItemLink{padding-right:25px}
+.UIFilterList_Button{padding-left:3px;padding-top:5px}
+.UIFilterList_CreateLink{display:block;padding-bottom:5px;padding-top:3px}
+.UIFilterList_DragHandle{background:url(/rsrc.php/zALOO/hash/aw6u5ib5.gif) no-repeat -16px -70px;cursor:move;display:none;height:16px;position:absolute;right:5px;top:7px;width:16px;z-index:1}
+.selected .UIFilterList_DragHandle{background-position:-16px -56px}
+.UIFilterList_EditMode .UIFilterList_DragHandle,
+.UIFilterList_EditLink,
+.UIFilterList_EditMode .UIFilterList_Footer{display:block}
+.UIFilterList_Loading .selected .UIFilterList_DragHandle,
+.UIFilterList_EditMode .UIFilterList_EditLink{display:none}
+.UIFilterList_NoBorder{border:none}
+.UIFilterList_EditMode .UIFilterList_ItemLink{padding-right:25px}
+.UIFilterList_EditMode .UIFilterList_Title{display:block;overflow:hidden;text-overflow:ellipsis}
+.UIFilterList_ShowHiddenSection .UIMutableFilterList_HiddenSection{display:block}
+.UIMutableFilterList_HiddenSection,
+.UIFilterList_ShowHiddenSection .UIFilterList_EditLink{display:none}
+.UIMutableFilterList_Separator{border-top:1px solid #b3b3b3;height:1px}

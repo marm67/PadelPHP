@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #222;
+    overflow: hidden;
+		border-right: 1px solid #bbbbbb;
+		padding-top:.5em;
+    background-color: #d9dee7;
+    background-color: #F0F0F0;
+}
+
+a:link {
+	color: #000;
+	text-decoration:none;
+}
+
+a:visited {
+	color: #000;
+	text-decoration:none;
+}
+
+a:active {
+	color:#0066CC;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#0066CC;
+	text-decoration:none;
+}
+
+tr {
+    margin: 0;
+    padding: 0;
+}
+td {
+    font-size: 12px;
+    font-family: Verdana;
+    padding:3px 1em;
+    position:relative;
+    vertical-align:top;
+}
+
+td.grupo {
+	padding:.5em 1em;
+	/* background-color: #D8DFEA; */
+	color: #2E6E9E;
+	font-weight:bold;
+  /* background:url(images/otras/divider_bbbbbb.gif) repeat-x scroll 0% 0%; */
+	border-top: 1px solid #bbbbbb;
+	border-bottom: 1px solid #bbbbbb;
+}
+
+td.post_grupo {
+	padding-top:.5em;
+  /* background:url(images/otras/divider_bbbbbb.gif) repeat-x scroll 100% 0%; */
+}
+
+
+td.selected {
+	background-color:#8FACBF !important;
+	background-color:#385E9A !important;
+}
+
+table td.selected a {
+	color:#FFFFFF !important;
+}
+
+td.resalte {
+	background-color: #FFFFE0 !important;
+	color:#FFFFFF;
+}
+

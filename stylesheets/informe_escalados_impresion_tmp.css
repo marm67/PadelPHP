@@ -1,0 +1,17 @@
+body {
+	background: white;
+	color: black;
+	font-family: sans-serif;
+	font-size: 12pt;
+}
+h1, h2, h3 {
+	padding-bottom: 1px;
+  border-bottom: 1px solid gray;
+}
+	 
+div.main {
+	border-bottom:1px solid #000;
+	font-size: 150%;
+	position: fixed;
+	bottom: 0;
+}	
